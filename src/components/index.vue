@@ -1,23 +1,19 @@
 <template>
-  <div>
-    <router-link :to="{ path: 'Products' }">
-      Products</router-link>
-    <router-link :to="{ path: 'Orders' }">
-      Orders</router-link> 
-  </div>
+  <i class="material-icons">event</i>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Index',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
 </script>
 
 <style scoped>
-
+div.container {
+  padding: 60px;
+}
 </style>

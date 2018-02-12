@@ -1,13 +1,12 @@
 <template>
-
+  <i class="material-icons">delete</i>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'Products',
   data () {
     return {
-      msg: 'Welcome to Your Vue.js App'
     }
   }
 }
