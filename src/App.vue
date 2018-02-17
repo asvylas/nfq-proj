@@ -30,4 +30,10 @@ body {
   text-align: center;
   color: #2c3e50;
 }
+button:focus {
+  outline:0 !important;
+}
+input:focus {
+  outline:0 !important;
+}
 </style>
