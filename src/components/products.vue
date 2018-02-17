@@ -65,7 +65,7 @@ export default {
         this.displayedProductList = this.productList
       }else {
         this.displayedProductList = this.productList.filter(item => {
-          return item.title.slice(0, e.target.value.lenght) === e.target.value
+          return item.title.slice(0, e.target.value.length).toLowerCase() === e.target.value.toLowerCase()
         })
       }
     }
@@ -82,6 +82,7 @@ div.card {
   background: black;
   color:white;
   text-align: left;
+  font-size:13px;
 }
 div.card:hover {
 	transform: scale(1.05);
