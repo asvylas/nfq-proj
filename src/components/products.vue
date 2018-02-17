@@ -14,7 +14,6 @@
     </div>
     <div id="cards-container">
       <div v-for="item in displayedProductList">
-
         <div class="card">
           <img class="card-images" :src="item.image" alt="Card image">
           <div class="card-info">
@@ -31,7 +30,6 @@
             </div>
           </div>
         </div>
-       
       </div>
     </div>
   </div>
