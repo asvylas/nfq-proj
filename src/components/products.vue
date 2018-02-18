@@ -36,7 +36,7 @@
 </template>
 
 <script>
-import CardServices from '@/services/CardServices'
+import Services from '@/services/Services'
 export default {
   name: 'Products',
   data () {
@@ -46,7 +46,7 @@ export default {
     }
   },
   async beforeMount () {
-    let response = await CardServices.getCards()
+    let response = await Services.getCards()
     this.productList = response.data.card
     this.displayedProductList = response.data.card
   },

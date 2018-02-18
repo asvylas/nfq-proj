@@ -2,9 +2,9 @@
   <div id="tool-bar">
   <div class="container">
     <router-link :to="{ path: 'products' }">
-    Products</router-link><i class="material-icons">face</i>
-    <router-link :to="{ path: 'orders' }">
-    Orders<i class="material-icons">face</i></router-link>
+    Products</router-link>
+    <router-link :to="{ path: 'orders' }">Orders
+    </router-link>
   </div>
   </div>
 </template>
@@ -29,5 +29,12 @@ export default {
 	border: 25px 10px solid black;
   color: white;
 	box-shadow: 0px 0px 8px black;
+}
+.container {
+  font-size: 20pt;
+  position: relative;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-left: 15px; 
 }
 </style>
